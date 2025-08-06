@@ -1,0 +1,1478 @@
+{
+	"info": {
+		"_postman_id": "fc37c61d-34bb-40b6-a8b6-d5f9334887da",
+		"name": "Hamburgueria",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27351090",
+		"_collection_link": "https://cloudy-escape-752679.postman.co/workspace/New-Team-Workspace~0f1e5290-4fbd-4763-b9c1-e0b2f874e4b2/collection/27351090-fc37c61d-34bb-40b6-a8b6-d5f9334887da?action=share&source=collection_link&creator=27351090"
+	},
+	"item": [
+		{
+			"name": "Produtos",
+			"item": [
+				{
+					"name": "Buscar",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produtos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produtos"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Buscar",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/produtos",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"produtos"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "831",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33f-PX65JtMyUGacMKNOhQpbe8qR7rM\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:13:33 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"6892abad10a67ff433e49566\",\n        \"productName\": \"X-coração\",\n        \"priceProduct\": 25.5,\n        \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n        \"updatedAt\": \"2025-08-06T01:11:09.448Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6892abf410a67ff433e4956a\",\n        \"productName\": \"X-salada\",\n        \"priceProduct\": 25.5,\n        \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n        \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6892b9360bcd5a367a9ba154\",\n        \"productName\": \"X-tudo\",\n        \"priceProduct\": 35,\n        \"createdAt\": \"2025-08-06T02:08:54.820Z\",\n        \"updatedAt\": \"2025-08-06T02:08:54.820Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6892b9720bcd5a367a9ba156\",\n        \"productName\": \"X-camarão\",\n        \"priceProduct\": 35,\n        \"createdAt\": \"2025-08-06T02:09:54.169Z\",\n        \"updatedAt\": \"2025-08-06T02:09:54.169Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6892b9c10a14b96c39eff4f3\",\n        \"productName\": \"X-calabresa\",\n        \"priceProduct\": 30,\n        \"createdAt\": \"2025-08-06T02:11:13.042Z\",\n        \"updatedAt\": \"2025-08-06T02:11:13.042Z\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Buscar por ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produtos/6892abad10a67ff433e49566",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produtos",
+								"6892abad10a67ff433e49566"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Buscar por ID",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/produtos/6892abad10a67ff433e49566",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"produtos",
+										"6892abad10a67ff433e49566"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "168",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a8-BcnWEb2s5B3yR7+cNMgKUq7rdnM\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:14:48 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"6892abad10a67ff433e49566\",\n    \"productName\": \"X-coração\",\n    \"priceProduct\": 25.5,\n    \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n    \"updatedAt\": \"2025-08-06T01:11:09.448Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productName\": \"X-calabresa\",\r\n    \"priceProduct\": 30.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produtos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produtos"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Criar",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productName\": \"X-calabresa\",\r\n    \"priceProduct\": 30.00\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/produtos",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"produtos"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "166",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a6-q2aXZbqioVzA+kgckb1MZSO7btc\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:11:13 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"productName\": \"X-calabresa\",\n    \"priceProduct\": 30,\n    \"_id\": \"6892b9c10a14b96c39eff4f3\",\n    \"createdAt\": \"2025-08-06T02:11:13.042Z\",\n    \"updatedAt\": \"2025-08-06T02:11:13.042Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"priceProduct\": \"as\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/produtos/6892abad10a67ff433e49566",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produtos",
+								"6892abad10a67ff433e49566"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Atualizar",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"priceProduct\": 30.50\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/produtos/6892abad10a67ff433e49566",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"produtos",
+										"6892abad10a67ff433e49566"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "168",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a8-r6NvHF5ijZdSe0MwP1kKPOH/SO0\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:17:09 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"6892abad10a67ff433e49566\",\n    \"productName\": \"X-coração\",\n    \"priceProduct\": 30.5,\n    \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n    \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/produtos/6892b9c10a14b96c39eff4f3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"produtos",
+								"6892b9c10a14b96c39eff4f3"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Deletar",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/produtos/6892b9c10a14b96c39eff4f3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"produtos",
+										"6892b9c10a14b96c39eff4f3"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "42",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2a-X6xeW+dAoUWmnX3yvxYZgeVjrP8\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:18:29 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Produto deletado com sucesso\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "Buscar",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Buscar",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/clientes",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"clientes"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "504",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1f8-VDDUZFXp6k0CqhmqV9J4iGKCXYI\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:21:16 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"6892b02a6fc1f3a74530d921\",\n        \"userName\": \"Julio\",\n        \"userPhone\": \"47992449745\",\n        \"createdAt\": \"2025-08-06T01:30:18.824Z\",\n        \"updatedAt\": \"2025-08-06T01:30:18.824Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6892b0476fc1f3a74530d923\",\n        \"userName\": \"Cesar Vanz\",\n        \"userPhone\": \"47999379745\",\n        \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n        \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6892bbde0a14b96c39eff4fd\",\n        \"userName\": \"Paulo\",\n        \"userPhone\": \"47999386556\",\n        \"createdAt\": \"2025-08-06T02:20:14.497Z\",\n        \"updatedAt\": \"2025-08-06T02:20:14.497Z\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Buscar por ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/clientes/6892b02a6fc1f3a74530d92",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clientes",
+								"6892b02a6fc1f3a74530d92"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Buscar por ID",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/clientes/6892b02a6fc1f3a74530d921",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"clientes",
+										"6892b02a6fc1f3a74530d921"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "165",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a5-nCvNOHeV39No7N09Y/DvMJCmuWA\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:21:31 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"6892b02a6fc1f3a74530d921\",\n    \"userName\": \"Julio\",\n    \"userPhone\": \"47992449745\",\n    \"createdAt\": \"2025-08-06T01:30:18.824Z\",\n    \"updatedAt\": \"2025-08-06T01:30:18.824Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"\",\r\n    \"userPhone\": \"47999386556\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clientes"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Criar",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userName\": \"Paulo\",\r\n    \"userPhone\": \"47999386556\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/clientes",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"clientes"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "165",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"a5-YK11JjcuF3HXWBJMA4rL5PKtRXo\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:20:14 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"userName\": \"Paulo\",\n    \"userPhone\": \"47999386556\",\n    \"_id\": \"6892bbde0a14b96c39eff4fd\",\n    \"createdAt\": \"2025-08-06T02:20:14.497Z\",\n    \"updatedAt\": \"2025-08-06T02:20:14.497Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"Paulo Vanz\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/clientes/6892b02a6fc1f3a74530d921",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clientes",
+								"6892b02a6fc1f3a74530d921"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Atualizar",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"userName\": \"Paulo Vanz\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/clientes/6892b02a6fc1f3a74530d921",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"clientes",
+										"6892b02a6fc1f3a74530d921"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "170",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"aa-Ofs4p+HFTSfsVlR4Hs9R7Q0oysQ\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:22:17 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"6892b02a6fc1f3a74530d921\",\n    \"userName\": \"Paulo Vanz\",\n    \"userPhone\": \"47992449745\",\n    \"createdAt\": \"2025-08-06T01:30:18.824Z\",\n    \"updatedAt\": \"2025-08-06T02:22:17.769Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/clientes/6892b02a6fc1f3a74530d921",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clientes",
+								"6892b02a6fc1f3a74530d921"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Deletar",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/clientes/6892b02a6fc1f3a74530d921",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"clientes",
+										"6892b02a6fc1f3a74530d921"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "43",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2b-nhSv4q4D4tc6ExOi88H/Trmj4Pw\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:23:47 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Usuário deletado com sucesso\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Comandas",
+			"item": [
+				{
+					"name": "Buscar",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/comanda",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"comanda"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Buscar",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/comanda",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"comanda"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "801",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"321-w/fssU81uxNQVA82Rojw17JH+Go\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:25:05 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"_id\": \"6892b7d20bcd5a367a9ba125\",\n        \"command\": {\n            \"_id\": \"6892b0476fc1f3a74530d923\",\n            \"userName\": \"Cesar Vanz\",\n            \"userPhone\": \"47999379745\",\n            \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n            \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n            \"__v\": 0\n        },\n        \"commandProducts\": [\n            {\n                \"products\": {\n                    \"_id\": \"6892abad10a67ff433e49566\",\n                    \"productName\": \"X-coração\",\n                    \"priceProduct\": 30.5,\n                    \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                    \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                    \"__v\": 0\n                },\n                \"quantity\": 2,\n                \"_id\": \"6892b7d20bcd5a367a9ba126\"\n            },\n            {\n                \"products\": {\n                    \"_id\": \"6892abf410a67ff433e4956a\",\n                    \"productName\": \"X-salada\",\n                    \"priceProduct\": 25.5,\n                    \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                    \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                    \"__v\": 0\n                },\n                \"quantity\": 1,\n                \"_id\": \"6892b7d20bcd5a367a9ba127\"\n            }\n        ],\n        \"commandStatus\": \"Aberta\",\n        \"createdAt\": \"2025-08-06T02:02:58.976Z\",\n        \"updatedAt\": \"2025-08-06T02:02:58.976Z\",\n        \"__v\": 0\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Buscar por ID",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/comanda/6892b7d20bcd5a367a9ba12",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"comanda",
+								"6892b7d20bcd5a367a9ba12"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Buscar por ID",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/comanda/6892b7d20bcd5a367a9ba125",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"comanda",
+										"6892b7d20bcd5a367a9ba125"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "799",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"31f-mKG2OVD4ofyIyzdSoYH/gEB3bCo\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:25:23 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"6892b7d20bcd5a367a9ba125\",\n    \"command\": {\n        \"_id\": \"6892b0476fc1f3a74530d923\",\n        \"userName\": \"Cesar Vanz\",\n        \"userPhone\": \"47999379745\",\n        \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n        \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n        \"__v\": 0\n    },\n    \"commandProducts\": [\n        {\n            \"products\": {\n                \"_id\": \"6892abad10a67ff433e49566\",\n                \"productName\": \"X-coração\",\n                \"priceProduct\": 30.5,\n                \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 2,\n            \"_id\": \"6892b7d20bcd5a367a9ba126\"\n        },\n        {\n            \"products\": {\n                \"_id\": \"6892abf410a67ff433e4956a\",\n                \"productName\": \"X-salada\",\n                \"priceProduct\": 25.5,\n                \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 1,\n            \"_id\": \"6892b7d20bcd5a367a9ba127\"\n        }\n    ],\n    \"commandStatus\": \"Aberta\",\n    \"createdAt\": \"2025-08-06T02:02:58.976Z\",\n    \"updatedAt\": \"2025-08-06T02:02:58.976Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Criar",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"command\": \"6892b0476fc1f3a74530d923\",\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abad10a67ff433e49566\",\r\n            \"quantity\": 3\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/comanda",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"comanda"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Criar",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"command\": \"6892b0476fc1f3a74530d923\",\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abad10a67ff433e49566\",\r\n            \"quantity\": 3\r\n        },\r\n        {\r\n            \"products\": \"6892abf410a67ff433e4956a\",\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/comanda",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"comanda"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "374",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"176-HsFW43XGdfEFAtTvNxMjve5qhfA\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:26:19 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"command\": \"6892b0476fc1f3a74530d923\",\n    \"commandProducts\": [\n        {\n            \"products\": \"6892abad10a67ff433e49566\",\n            \"quantity\": 3,\n            \"_id\": \"6892bd4b0a14b96c39eff513\"\n        },\n        {\n            \"products\": \"6892abf410a67ff433e4956a\",\n            \"quantity\": 2,\n            \"_id\": \"6892bd4b0a14b96c39eff514\"\n        }\n    ],\n    \"commandStatus\": \"Aberta\",\n    \"_id\": \"6892bd4b0a14b96c39eff512\",\n    \"createdAt\": \"2025-08-06T02:26:19.613Z\",\n    \"updatedAt\": \"2025-08-06T02:26:19.613Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Atualizar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abf410a67ff433e4956a\",\r\n            \"quantity\": 3\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/comanda/6892b7a60bcd5a367a9ba122",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"comanda",
+								"6892b7a60bcd5a367a9ba122"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Atualizar",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"commandStatus\": \"Finalizada\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/comanda/6892b7d20bcd5a367a9ba125",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"comanda",
+										"6892b7d20bcd5a367a9ba125"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "803",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"323-Tf8iR7DyZ1okp+HJHQb/S3HLk6w\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:28:06 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_id\": \"6892b7d20bcd5a367a9ba125\",\n    \"command\": {\n        \"_id\": \"6892b0476fc1f3a74530d923\",\n        \"userName\": \"Cesar Vanz\",\n        \"userPhone\": \"47999379745\",\n        \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n        \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n        \"__v\": 0\n    },\n    \"commandProducts\": [\n        {\n            \"products\": {\n                \"_id\": \"6892abad10a67ff433e49566\",\n                \"productName\": \"X-coração\",\n                \"priceProduct\": 30.5,\n                \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 2,\n            \"_id\": \"6892b7d20bcd5a367a9ba126\"\n        },\n        {\n            \"products\": {\n                \"_id\": \"6892abf410a67ff433e4956a\",\n                \"productName\": \"X-salada\",\n                \"priceProduct\": 25.5,\n                \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 1,\n            \"_id\": \"6892b7d20bcd5a367a9ba127\"\n        }\n    ],\n    \"commandStatus\": \"Finalizada\",\n    \"createdAt\": \"2025-08-06T02:02:58.976Z\",\n    \"updatedAt\": \"2025-08-06T02:28:06.647Z\",\n    \"__v\": 0\n}"
+						}
+					]
+				},
+				{
+					"name": "Deletar",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/comanda/6892b7a60bcd5a367a9ba122",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"comanda",
+								"6892b7a60bcd5a367a9ba122"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Deletar",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/comanda/6892b7d20bcd5a367a9ba125",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"comanda",
+										"6892b7d20bcd5a367a9ba125"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "42",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2a-qLOxWEQI9NpbabY+qzC0jCtrcuA\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 06 Aug 2025 02:28:36 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Comando deletado com sucesso\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
