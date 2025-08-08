@@ -9,12 +9,12 @@ const createCommand = async (req, res) => {
     }
 }
 
-const getUsers = async (req, res) => {
+const getCommands = async (req, res) => {
     try {
         const commands = await Command.getCommands();
         res.status(200).json(commands);
     } catch (error) {
-        res.status(500).json({ error: `Erro ao buscar comandos: ${error.message}` });
+        res.status(500).json({ error: `Erro ao buscar comandas: ${error.message}` });
     }
 }
 
@@ -22,11 +22,11 @@ const getCommandById = async (req, res) => {
     try {
         const command = await Command.getCommandById(req.params.id);
         if (!command) {
-            return res.status(404).json({ error: 'Comando não encontrado' });
+            return res.status(404).json({ error: 'comanda não encontrado' });
         }
         res.status(200).json(command);
     } catch (error) {
-        res.status(500).json({ error: `Erro ao buscar comando: ${error.message}` });
+        res.status(500).json({ error: `Erro ao buscar comanda: ${error.message}` });
     }
 }
 
@@ -34,11 +34,11 @@ const updateCommand = async (req, res) => {
     try {
         const updatedCommand = await Command.updateCommand(req.params.id, req.body);
         if (!updatedCommand) {
-            return res.status(404).json({ error: 'Comando não encontrado' });
+            return res.status(404).json({ error: 'comanda não encontrado' });
         }
         res.status(200).json(updatedCommand);
     } catch (error) {
-        res.status(500).json({ error: `Erro ao atualizar comando: ${error.message}` });
+        res.status(500).json({ error: `Erro ao atualizar comanda: ${error.message}` });
     }
 }
 
@@ -46,17 +46,17 @@ const deleteCommand = async (req, res) => {
     try {
         const deletedCommand = await Command.deleteCommand(req.params.id);
         if (!deletedCommand) {
-            return res.status(404).json({ error: 'Comando não encontrado' });
+            return res.status(404).json({ error: 'comanda não encontrado' });
         }
-        res.status(200).json({ message: 'Comando deletado com sucesso' });
+        res.status(200).json({ message: 'comanda deletado com sucesso' });
     } catch (error) {
-        res.status(500).json({ error: `Erro ao deletar comando: ${error.message}` });
+        res.status(500).json({ error: `Erro ao deletar comanda: ${error.message}` });
     }
 }
 
 module.exports = {
     createCommand,
-    getUsers,
+    getCommands,
     getCommandById,
     updateCommand,
     deleteCommand
