@@ -1006,14 +1006,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/comanda",
+							"raw": "http://localhost:3000/comandas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "3000",
 							"path": [
-								"comanda"
+								"comandas"
 							]
 						}
 					},
@@ -1033,14 +1033,14 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/comanda",
+									"raw": "http://localhost:3000/comandas",
 									"protocol": "http",
 									"host": [
 										"localhost"
 									],
 									"port": "3000",
 									"path": [
-										"comanda"
+										"comandas"
 									]
 								}
 							},
@@ -1060,17 +1060,17 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "801",
+									"value": "1376",
 									"type": "text"
 								},
 								{
 									"key": "ETag",
-									"value": "W/\"321-w/fssU81uxNQVA82Rojw17JH+Go\"",
+									"value": "W/\"560-o4M+1Wz+FyTS9ljYBqr54WIkS3Q\"",
 									"type": "text"
 								},
 								{
 									"key": "Date",
-									"value": "Wed, 06 Aug 2025 02:25:05 GMT",
+									"value": "Fri, 08 Aug 2025 12:09:36 GMT",
 									"type": "text"
 								},
 								{
@@ -1085,7 +1085,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "[\n    {\n        \"_id\": \"6892b7d20bcd5a367a9ba125\",\n        \"command\": {\n            \"_id\": \"6892b0476fc1f3a74530d923\",\n            \"userName\": \"Cesar Vanz\",\n            \"userPhone\": \"47999379745\",\n            \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n            \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n            \"__v\": 0\n        },\n        \"commandProducts\": [\n            {\n                \"products\": {\n                    \"_id\": \"6892abad10a67ff433e49566\",\n                    \"productName\": \"X-coração\",\n                    \"priceProduct\": 30.5,\n                    \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                    \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                    \"__v\": 0\n                },\n                \"quantity\": 2,\n                \"_id\": \"6892b7d20bcd5a367a9ba126\"\n            },\n            {\n                \"products\": {\n                    \"_id\": \"6892abf410a67ff433e4956a\",\n                    \"productName\": \"X-salada\",\n                    \"priceProduct\": 25.5,\n                    \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                    \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                    \"__v\": 0\n                },\n                \"quantity\": 1,\n                \"_id\": \"6892b7d20bcd5a367a9ba127\"\n            }\n        ],\n        \"commandStatus\": \"Aberta\",\n        \"createdAt\": \"2025-08-06T02:02:58.976Z\",\n        \"updatedAt\": \"2025-08-06T02:02:58.976Z\",\n        \"__v\": 0\n    }\n]"
+							"body": "[\n    {\n        \"_id\": \"6892bd4b0a14b96c39eff512\",\n        \"command\": {\n            \"_id\": \"6892b0476fc1f3a74530d923\",\n            \"userName\": \"Cesar Vanz\",\n            \"userPhone\": \"47999379745\",\n            \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n            \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n            \"__v\": 0\n        },\n        \"commandProducts\": [\n            {\n                \"products\": {\n                    \"_id\": \"6892abad10a67ff433e49566\",\n                    \"productName\": \"X-coração\",\n                    \"priceProduct\": 30.5,\n                    \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                    \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                    \"__v\": 0\n                },\n                \"quantity\": 3,\n                \"_id\": \"6892bd4b0a14b96c39eff513\"\n            },\n            {\n                \"products\": {\n                    \"_id\": \"6892abf410a67ff433e4956a\",\n                    \"productName\": \"X-salada\",\n                    \"priceProduct\": 25.5,\n                    \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                    \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                    \"__v\": 0\n                },\n                \"quantity\": 2,\n                \"_id\": \"6892bd4b0a14b96c39eff514\"\n            }\n        ],\n        \"commandStatus\": \"Aberta\",\n        \"createdAt\": \"2025-08-06T02:26:19.613Z\",\n        \"updatedAt\": \"2025-08-06T02:26:19.613Z\",\n        \"__v\": 0\n    },\n    {\n        \"_id\": \"6892be140a14b96c39eff535\",\n        \"command\": {\n            \"_id\": \"6892b0476fc1f3a74530d923\",\n            \"userName\": \"Cesar Vanz\",\n            \"userPhone\": \"47999379745\",\n            \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n            \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n            \"__v\": 0\n        },\n        \"commandProducts\": [\n            {\n                \"products\": {\n                    \"_id\": \"6892abad10a67ff433e49566\",\n                    \"productName\": \"X-coração\",\n                    \"priceProduct\": 30.5,\n                    \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                    \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                    \"__v\": 0\n                },\n                \"quantity\": 3,\n                \"_id\": \"6892be140a14b96c39eff536\"\n            }\n        ],\n        \"commandStatus\": \"Aberta\",\n        \"createdAt\": \"2025-08-06T02:29:40.226Z\",\n        \"updatedAt\": \"2025-08-06T02:29:40.226Z\",\n        \"__v\": 0\n    }\n]"
 						}
 					]
 				},
@@ -1107,15 +1107,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/comanda/6892b7d20bcd5a367a9ba12",
+							"raw": "http://localhost:3000/comandas/6892bd4b0a14b96c39eff512",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "3000",
 							"path": [
-								"comanda",
-								"6892b7d20bcd5a367a9ba12"
+								"comandas",
+								"6892bd4b0a14b96c39eff512"
 							]
 						}
 					},
@@ -1135,15 +1135,15 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/comanda/6892b7d20bcd5a367a9ba125",
+									"raw": "http://localhost:3000/comandas/6892bd4b0a14b96c39eff512",
 									"protocol": "http",
 									"host": [
 										"localhost"
 									],
 									"port": "3000",
 									"path": [
-										"comanda",
-										"6892b7d20bcd5a367a9ba125"
+										"comandas",
+										"6892bd4b0a14b96c39eff512"
 									]
 								}
 							},
@@ -1168,12 +1168,12 @@
 								},
 								{
 									"key": "ETag",
-									"value": "W/\"31f-mKG2OVD4ofyIyzdSoYH/gEB3bCo\"",
+									"value": "W/\"31f-Z1QQGZw9r0R5Heowv1QteI1lyp8\"",
 									"type": "text"
 								},
 								{
 									"key": "Date",
-									"value": "Wed, 06 Aug 2025 02:25:23 GMT",
+									"value": "Fri, 08 Aug 2025 12:10:22 GMT",
 									"type": "text"
 								},
 								{
@@ -1188,7 +1188,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"_id\": \"6892b7d20bcd5a367a9ba125\",\n    \"command\": {\n        \"_id\": \"6892b0476fc1f3a74530d923\",\n        \"userName\": \"Cesar Vanz\",\n        \"userPhone\": \"47999379745\",\n        \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n        \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n        \"__v\": 0\n    },\n    \"commandProducts\": [\n        {\n            \"products\": {\n                \"_id\": \"6892abad10a67ff433e49566\",\n                \"productName\": \"X-coração\",\n                \"priceProduct\": 30.5,\n                \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 2,\n            \"_id\": \"6892b7d20bcd5a367a9ba126\"\n        },\n        {\n            \"products\": {\n                \"_id\": \"6892abf410a67ff433e4956a\",\n                \"productName\": \"X-salada\",\n                \"priceProduct\": 25.5,\n                \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 1,\n            \"_id\": \"6892b7d20bcd5a367a9ba127\"\n        }\n    ],\n    \"commandStatus\": \"Aberta\",\n    \"createdAt\": \"2025-08-06T02:02:58.976Z\",\n    \"updatedAt\": \"2025-08-06T02:02:58.976Z\",\n    \"__v\": 0\n}"
+							"body": "{\n    \"_id\": \"6892bd4b0a14b96c39eff512\",\n    \"command\": {\n        \"_id\": \"6892b0476fc1f3a74530d923\",\n        \"userName\": \"Cesar Vanz\",\n        \"userPhone\": \"47999379745\",\n        \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n        \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n        \"__v\": 0\n    },\n    \"commandProducts\": [\n        {\n            \"products\": {\n                \"_id\": \"6892abad10a67ff433e49566\",\n                \"productName\": \"X-coração\",\n                \"priceProduct\": 30.5,\n                \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 3,\n            \"_id\": \"6892bd4b0a14b96c39eff513\"\n        },\n        {\n            \"products\": {\n                \"_id\": \"6892abf410a67ff433e4956a\",\n                \"productName\": \"X-salada\",\n                \"priceProduct\": 25.5,\n                \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 2,\n            \"_id\": \"6892bd4b0a14b96c39eff514\"\n        }\n    ],\n    \"commandStatus\": \"Aberta\",\n    \"createdAt\": \"2025-08-06T02:26:19.613Z\",\n    \"updatedAt\": \"2025-08-06T02:26:19.613Z\",\n    \"__v\": 0\n}"
 						}
 					]
 				},
@@ -1199,7 +1199,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"command\": \"6892b0476fc1f3a74530d923\",\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abad10a67ff433e49566\",\r\n            \"quantity\": 3\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"command\": \"6892bd4b0a14b96c39eff512\",\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abad10a67ff433e49566\",\r\n            \"quantity\": 3\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1207,14 +1207,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/comanda",
+							"raw": "http://localhost:3000/comandas",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "3000",
 							"path": [
-								"comanda"
+								"comandas"
 							]
 						}
 					},
@@ -1226,7 +1226,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"command\": \"6892b0476fc1f3a74530d923\",\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abad10a67ff433e49566\",\r\n            \"quantity\": 3\r\n        },\r\n        {\r\n            \"products\": \"6892abf410a67ff433e4956a\",\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}",
+									"raw": "{\r\n    \"command\": \"6892bd4b0a14b96c39eff512\",\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abad10a67ff433e49566\",\r\n            \"quantity\": 3\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1234,14 +1234,14 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/comanda",
+									"raw": "http://localhost:3000/comandas",
 									"protocol": "http",
 									"host": [
 										"localhost"
 									],
 									"port": "3000",
 									"path": [
-										"comanda"
+										"comandas"
 									]
 								}
 							},
@@ -1261,17 +1261,17 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "374",
+									"value": "288",
 									"type": "text"
 								},
 								{
 									"key": "ETag",
-									"value": "W/\"176-HsFW43XGdfEFAtTvNxMjve5qhfA\"",
+									"value": "W/\"120-pmTzzPzMfrbSYkbRhbMKTUe0cys\"",
 									"type": "text"
 								},
 								{
 									"key": "Date",
-									"value": "Wed, 06 Aug 2025 02:26:19 GMT",
+									"value": "Fri, 08 Aug 2025 12:11:33 GMT",
 									"type": "text"
 								},
 								{
@@ -1286,7 +1286,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"command\": \"6892b0476fc1f3a74530d923\",\n    \"commandProducts\": [\n        {\n            \"products\": \"6892abad10a67ff433e49566\",\n            \"quantity\": 3,\n            \"_id\": \"6892bd4b0a14b96c39eff513\"\n        },\n        {\n            \"products\": \"6892abf410a67ff433e4956a\",\n            \"quantity\": 2,\n            \"_id\": \"6892bd4b0a14b96c39eff514\"\n        }\n    ],\n    \"commandStatus\": \"Aberta\",\n    \"_id\": \"6892bd4b0a14b96c39eff512\",\n    \"createdAt\": \"2025-08-06T02:26:19.613Z\",\n    \"updatedAt\": \"2025-08-06T02:26:19.613Z\",\n    \"__v\": 0\n}"
+							"body": "{\n    \"command\": \"6892bd4b0a14b96c39eff512\",\n    \"commandProducts\": [\n        {\n            \"products\": \"6892abad10a67ff433e49566\",\n            \"quantity\": 3,\n            \"_id\": \"6895e975dd476b839d1aecff\"\n        }\n    ],\n    \"commandStatus\": \"Aberta\",\n    \"_id\": \"6895e975dd476b839d1aecfe\",\n    \"createdAt\": \"2025-08-08T12:11:33.364Z\",\n    \"updatedAt\": \"2025-08-08T12:11:33.364Z\",\n    \"__v\": 0\n}"
 						}
 					]
 				},
@@ -1297,7 +1297,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abf410a67ff433e4956a\",\r\n            \"quantity\": 3\r\n        }\r\n    ]\r\n}",
+							"raw": "{\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abf410a67ff433e4956a\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1305,15 +1305,15 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/comanda/6892b7a60bcd5a367a9ba122",
+							"raw": "http://localhost:3000/comandas/6892bd4b0a14b96c39eff512",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "3000",
 							"path": [
-								"comanda",
-								"6892b7a60bcd5a367a9ba122"
+								"comandas",
+								"6892bd4b0a14b96c39eff512"
 							]
 						}
 					},
@@ -1325,7 +1325,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\r\n    \"commandStatus\": \"Finalizada\"\r\n}",
+									"raw": "{\r\n    \"commandProducts\": [\r\n        {\r\n            \"products\": \"6892abf410a67ff433e4956a\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -1333,15 +1333,15 @@
 									}
 								},
 								"url": {
-									"raw": "http://localhost:3000/comanda/6892b7d20bcd5a367a9ba125",
+									"raw": "http://localhost:3000/comandas/6892bd4b0a14b96c39eff512",
 									"protocol": "http",
 									"host": [
 										"localhost"
 									],
 									"port": "3000",
 									"path": [
-										"comanda",
-										"6892b7d20bcd5a367a9ba125"
+										"comandas",
+										"6892bd4b0a14b96c39eff512"
 									]
 								}
 							},
@@ -1361,17 +1361,17 @@
 								},
 								{
 									"key": "Content-Length",
-									"value": "803",
+									"value": "571",
 									"type": "text"
 								},
 								{
 									"key": "ETag",
-									"value": "W/\"323-Tf8iR7DyZ1okp+HJHQb/S3HLk6w\"",
+									"value": "W/\"23b-oN8SjbaQ6/HbDRdnToJZ2cPyyEk\"",
 									"type": "text"
 								},
 								{
 									"key": "Date",
-									"value": "Wed, 06 Aug 2025 02:28:06 GMT",
+									"value": "Fri, 08 Aug 2025 12:12:03 GMT",
 									"type": "text"
 								},
 								{
@@ -1386,7 +1386,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"_id\": \"6892b7d20bcd5a367a9ba125\",\n    \"command\": {\n        \"_id\": \"6892b0476fc1f3a74530d923\",\n        \"userName\": \"Cesar Vanz\",\n        \"userPhone\": \"47999379745\",\n        \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n        \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n        \"__v\": 0\n    },\n    \"commandProducts\": [\n        {\n            \"products\": {\n                \"_id\": \"6892abad10a67ff433e49566\",\n                \"productName\": \"X-coração\",\n                \"priceProduct\": 30.5,\n                \"createdAt\": \"2025-08-06T01:11:09.448Z\",\n                \"updatedAt\": \"2025-08-06T02:17:09.501Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 2,\n            \"_id\": \"6892b7d20bcd5a367a9ba126\"\n        },\n        {\n            \"products\": {\n                \"_id\": \"6892abf410a67ff433e4956a\",\n                \"productName\": \"X-salada\",\n                \"priceProduct\": 25.5,\n                \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 1,\n            \"_id\": \"6892b7d20bcd5a367a9ba127\"\n        }\n    ],\n    \"commandStatus\": \"Finalizada\",\n    \"createdAt\": \"2025-08-06T02:02:58.976Z\",\n    \"updatedAt\": \"2025-08-06T02:28:06.647Z\",\n    \"__v\": 0\n}"
+							"body": "{\n    \"_id\": \"6892bd4b0a14b96c39eff512\",\n    \"command\": {\n        \"_id\": \"6892b0476fc1f3a74530d923\",\n        \"userName\": \"Cesar Vanz\",\n        \"userPhone\": \"47999379745\",\n        \"createdAt\": \"2025-08-06T01:30:47.564Z\",\n        \"updatedAt\": \"2025-08-06T01:32:49.429Z\",\n        \"__v\": 0\n    },\n    \"commandProducts\": [\n        {\n            \"products\": {\n                \"_id\": \"6892abf410a67ff433e4956a\",\n                \"productName\": \"X-salada\",\n                \"priceProduct\": 25.5,\n                \"createdAt\": \"2025-08-06T01:12:20.435Z\",\n                \"updatedAt\": \"2025-08-06T01:12:20.435Z\",\n                \"__v\": 0\n            },\n            \"quantity\": 1,\n            \"_id\": \"6895e993dd476b839d1aed01\"\n        }\n    ],\n    \"commandStatus\": \"Aberta\",\n    \"createdAt\": \"2025-08-06T02:26:19.613Z\",\n    \"updatedAt\": \"2025-08-08T12:12:03.693Z\",\n    \"__v\": 0\n}"
 						}
 					]
 				},
@@ -1396,15 +1396,15 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/comanda/6892b7a60bcd5a367a9ba122",
+							"raw": "http://localhost:3000/comandas/6892be140a14b96c39eff535",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "3000",
 							"path": [
-								"comanda",
-								"6892b7a60bcd5a367a9ba122"
+								"comandas",
+								"6892be140a14b96c39eff535"
 							]
 						}
 					},
@@ -1454,6 +1454,67 @@
 								{
 									"key": "Date",
 									"value": "Wed, 06 Aug 2025 02:28:36 GMT",
+									"type": "text"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive",
+									"type": "text"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5",
+									"type": "text"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Comando deletado com sucesso\"\n}"
+						},
+						{
+							"name": "Deletar",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/comandas/6892be140a14b96c39eff535",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"comandas",
+										"6892be140a14b96c39eff535"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "JSON",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express",
+									"type": "text"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8",
+									"type": "text"
+								},
+								{
+									"key": "Content-Length",
+									"value": "42",
+									"type": "text"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2a-qLOxWEQI9NpbabY+qzC0jCtrcuA\"",
+									"type": "text"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 08 Aug 2025 12:14:00 GMT",
 									"type": "text"
 								},
 								{
